@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Register user through api" skipped="0" tests="1" time="9.56" timestamp="2020-10-22 04:45:27"><testcase name="Registration user"><failure message="1 expectation failed.&#10;JSON path data[1].name doesn't match.&#10;Expected: Chandi Pothuvaal&#10;  Actual: Chandramani Chopra&#10;&#13;&#10;1 expectation failed.&#10;JSON path data[1].email doesn't match.&#10;Expected: chandi_pothuvaal@beer.biz&#10;  Actual: chandramani_chopra@rippin.biz&#10;&#13;&#10;1 expectation failed.&#10;JSON path data[1].gender doesn't match.&#10;Expected: Male&#10;  Actual: Female&#10;&#13;&#10;1 expectation failed.&#10;JSON path data[1].created_at doesn't match.&#10;Expected: 2020-10-20T03:50:04.272+05:30&#10;  Actual: 2020-10-22T03:50:04.492+05:30&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path data[1].name doesn't match.
+Expected: Chandi Pothuvaal
+  Actual: Chandramani Chopra
+&#13;
+1 expectation failed.
+JSON path data[1].email doesn't match.
+Expected: chandi_pothuvaal@beer.biz
+  Actual: chandramani_chopra@rippin.biz
+&#13;
+1 expectation failed.
+JSON path data[1].gender doesn't match.
+Expected: Male
+  Actual: Female
+&#13;
+1 expectation failed.
+JSON path data[1].created_at doesn't match.
+Expected: 2020-10-20T03:50:04.272+05:30
+  Actual: 2020-10-22T03:50:04.492+05:30
+</failure><system-err>1 expectation failed.
+JSON path data[1].name doesn't match.
+Expected: Chandi Pothuvaal
+  Actual: Chandramani Chopra
+&#13;
+1 expectation failed.
+JSON path data[1].email doesn't match.
+Expected: chandi_pothuvaal@beer.biz
+  Actual: chandramani_chopra@rippin.biz
+&#13;
+1 expectation failed.
+JSON path data[1].gender doesn't match.
+Expected: Male
+  Actual: Female
+&#13;
+1 expectation failed.
+JSON path data[1].created_at doesn't match.
+Expected: 2020-10-20T03:50:04.272+05:30
+  Actual: 2020-10-22T03:50:04.492+05:30
+&#13;
+com.sophossolutions.stepdefinitions.rest.RestServiceStepDefinitions.verifyTheCreationOfThisUserWithTheGetMethod(RestServiceStepDefinitions.java:49)&#13;
+✽.Karen verify the creation of this user with the get method(file:///C:/Users/k.agualimpia.copete/Desktop/Reto%20Auto%20Sopho12/RetoAutoSophos12/RetoSOLID/src/test/resources/com/sophossolutions/features/rest_service.feature:7)&#13;
+</system-err></testcase></testsuite>
